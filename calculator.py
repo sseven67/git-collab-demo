@@ -4,6 +4,8 @@ def calculate(a, b, operation):
         return a + b
     elif operation == "-":
         return a - b
+    elif operation == "/":
+        return a / b
     else:
         raise ValueError("Unsupported operation")
 
